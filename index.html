@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copiador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="copiador-container">
+        <div class="copiador-header">
+            <h1 id="container-title">
+                Copiador de texto
+            </h1>
+        </div>
+        <div class="copiador-body">
+            <div class="copiador-body-form">
+                <div class="copiador-body-form-input">
+                    <textarea
+                    rows="2"
+                    cols="40"
+                    placeholder="Texto aqui"
+                    id="text"></textarea>
+                </div>
+                <div class="copiador-body-form-input">
+                    <input 
+                    type="button"
+                    value="Copiar"
+                    id="btn-copiar">
+                </div>
+            </div>
+            <div class="copiador-alert-container">
+                <span id="alert-text">
+                    Texto copiado
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
